@@ -1,4 +1,4 @@
-echo "Nume site: ex. test.localhost.dev"
+echo "Name of site: ex. test.localhost.dev"
 read site
 # we write to hosts our site
 sudo printf '%s\n' $site >> /etc/hosts
